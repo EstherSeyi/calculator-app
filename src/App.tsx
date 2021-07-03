@@ -1,16 +1,16 @@
 import "./App.css";
 
-import HeaderSection from "./components/HeaderSection";
-import InputSection from "./components/InputSection";
-import ButtonSection from "./components/ButtonSection";
+import Header from "./components/Header";
+import Display from "./components/Display";
+import Keypad from "./components/Keypad";
 
 function App() {
   return (
-    <div className="text-misc-white min-h-screen">
+    <div className="text-misc-white">
       <div className="w-11/12 max-w-lg mx-auto mt-32">
-        <HeaderSection />
-        <InputSection />
-        <ButtonSection />
+        <Header />
+        <Display data="399,981" />
+        <Keypad />
       </div>
     </div>
   );
