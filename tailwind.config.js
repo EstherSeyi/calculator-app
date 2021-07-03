@@ -1,5 +1,5 @@
 module.exports = {
-  mode: "jit",
+  // mode: "jit",
   purge: [
     "./src/**/*.html",
     "./src/**/*.ts",
@@ -36,6 +36,11 @@ module.exports = {
     extend: {
       inset: {
         "3px": "3px",
+      },
+      boxShadow: {
+        reg: "0 1px 2px 0 var(--key-shadow-color3)",
+        accent: "0 1px 2px 0 var(--key-shadow-color)",
+        equals: "0 1px 2px 0 var(--key-shadow-color2)",
       },
     },
   },
