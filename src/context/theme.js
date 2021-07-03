@@ -18,17 +18,21 @@ function getInitialTheme(_) {
 
 const ThemeContext = React.createContext();
 
-function ThemeProvider({ initialTheme, children }) {
+function ThemeProvider({ initialTheme = "", children }) {
   const [theme, setTheme] = React.useState(getInitialTheme);
 
   const rawSetTheme = (theme) => {
     const root = window.document.documentElement;
-    const isTheme1 = theme === "theme1";
 
-    if (isTheme1 && root.classList.contains("theme2")) {
+    if (theme === "theme1") {
       root.classList.remove("theme2");
-    } else if (isTheme1 && root.classList.contains("theme3")) {
       root.classList.remove("theme3");
+    } else if (theme === "theme2") {
+      root.classList.remove("theme1");
+      root.classList.remove("theme3");
+    } else if (theme === "theme3") {
+      root.classList.remove("theme1");
+      root.classList.remove("theme2");
     }
 
     root.classList.add(theme);
