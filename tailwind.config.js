@@ -30,6 +30,7 @@ module.exports = {
         accent: "var(--accent-text-color)",
         header: "var(--header-text-color)",
         white: "#ffffff",
+        transparent: "transparent",
       },
     },
     extend: {
