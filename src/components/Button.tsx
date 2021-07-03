@@ -5,7 +5,7 @@ const Button = ({ children }: { children: string }) => {
   return (
     <>
       <button
-        className={`py-4 px-6 rounded-md uppercase ${
+        className={`py-2 micro:py-4 px-4 micro:px-6 rounded-md uppercase text-sm micro:text-base ${
           accentBtn.includes(children)
             ? "bg-key-bg text-misc-white shadow-accent"
             : children === "="
