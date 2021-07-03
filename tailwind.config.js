@@ -42,6 +42,9 @@ module.exports = {
         accent: "0 1px 2px 0 var(--key-shadow-color)",
         equals: "0 1px 2px 0 var(--key-shadow-color2)",
       },
+      screens: {
+        micro: "400px",
+      },
     },
   },
   variants: {
