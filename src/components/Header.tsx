@@ -1,6 +1,6 @@
 import { useTheme } from "../context/theme";
 
-const HeaderSection = () => {
+const Header = () => {
   const { theme, setTheme } = useTheme();
 
   const handleThemeToggle = (theme: string) => {
@@ -8,7 +8,7 @@ const HeaderSection = () => {
   };
 
   return (
-    <div className="flex justify-between text-misc-header">
+    <div className="flex justify-between text-misc-header mb-4">
       <p className="self-center">calc</p>
       <div className="flex text-xs">
         <span className="uppercase self-end mr-4">theme</span>
@@ -50,4 +50,4 @@ const HeaderSection = () => {
   );
 };
 
-export default HeaderSection;
+export default Header;
