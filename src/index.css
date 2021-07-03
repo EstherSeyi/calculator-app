@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+  @apply theme1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  .theme1 {
+    --main-bg-color: hsl(222, 26%, 31%);
+    --element-bg-color: hsl(223, 31%, 20%);
+    --screen-bg-color: hsl(224, 36%, 15%);
+
+    --key-bg-color: hsl(225, 21%, 49%);
+    --key-shadow-color: hsl(224, 28%, 35%);
+    --key-element-color: hsl(6, 63%, 50%);
+    --key-shadow-color2: hsl(6, 70%, 34%);
+    --key-bg-color2: hsl(30, 25%, 89%);
+    --key-shadow-color3: hsl(28, 16%, 65%);
+
+    --primary-text-color: hsl(221, 14%, 31%);
+    --accent-text-color: hsl(0, 0, 100%);
+  }
+
+  .theme2 {
+    --main-bg-color: hsl(0, 0%, 90%);
+    --element-bg-color: hsl(0, 5%, 81%);
+    --screen-bg-color: hsl(0, 0%, 93%);
+
+    --key-bg-color: hsl(185, 42%, 37%);
+    --key-shadow-color: hsl(185, 58%, 25%);
+    --key-element-color: hsl(25, 98%, 40%);
+    --key-shadow-color2: hsl(25, 99%, 27%);
+    --key-bg-color2: hsl(45, 7%, 89%);
+    --key-shadow-color3: hsl(35, 11%, 61%);
+
+    --primary-text-color: hsl(60, 10%, 19%);
+    --accent-text-color: hsl(0, 0, 100%);
+  }
+
+  .theme3 {
+    --main-bg-color: hsl(268, 75%, 9%);
+    --element-bg-color: hsl(268, 71%, 12%);
+    --screen-bg-color: hsl(268, 71%, 12%);
+
+    --key-bg-color: hsl(281, 89%, 26%);
+    --key-shadow-color: hsl(285, 91%, 52%);
+    --key-element-color: hsl(176, 100%, 44%);
+    --key-shadow-color2: hsl(177, 92%, 70%);
+    --key-bg-color2: hsl(268, 47%, 21%);
+    --key-shadow-color3: hsl(290, 70%, 36%);
+
+    --primary-text-color: hsl(52, 100%, 62%);
+    --accent-text-color: hsl(198, 20%, 13%);
+  }
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: "Spartan", sans-serif;
 }
