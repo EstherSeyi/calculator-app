@@ -22,40 +22,43 @@
     --key-shadow-color3: hsl(28, 16%, 65%);
 
     --primary-text-color: hsl(221, 14%, 31%);
+    --header-text-color: hsl(0, 0, 100%);
     --accent-text-color: hsl(0, 0, 100%);
   }
+}
 
-  .theme2 {
-    --main-bg-color: hsl(0, 0%, 90%);
-    --element-bg-color: hsl(0, 5%, 81%);
-    --screen-bg-color: hsl(0, 0%, 93%);
+.theme2 {
+  --main-bg-color: hsl(0, 0%, 90%);
+  --element-bg-color: hsl(0, 5%, 81%);
+  --screen-bg-color: hsl(0, 0%, 93%);
 
-    --key-bg-color: hsl(185, 42%, 37%);
-    --key-shadow-color: hsl(185, 58%, 25%);
-    --key-element-color: hsl(25, 98%, 40%);
-    --key-shadow-color2: hsl(25, 99%, 27%);
-    --key-bg-color2: hsl(45, 7%, 89%);
-    --key-shadow-color3: hsl(35, 11%, 61%);
+  --key-bg-color: hsl(185, 42%, 37%);
+  --key-shadow-color: hsl(185, 58%, 25%);
+  --key-element-color: hsl(25, 98%, 40%);
+  --key-shadow-color2: hsl(25, 99%, 27%);
+  --key-bg-color2: hsl(45, 7%, 89%);
+  --key-shadow-color3: hsl(35, 11%, 61%);
 
-    --primary-text-color: hsl(60, 10%, 19%);
-    --accent-text-color: hsl(0, 0, 100%);
-  }
+  --primary-text-color: hsl(60, 10%, 19%);
+  --header-text-color: hsl(60, 10%, 19%);
+  --accent-text-color: hsl(0, 0, 100%);
+}
 
-  .theme3 {
-    --main-bg-color: hsl(268, 75%, 9%);
-    --element-bg-color: hsl(268, 71%, 12%);
-    --screen-bg-color: hsl(268, 71%, 12%);
+.theme3 {
+  --main-bg-color: hsl(268, 75%, 9%);
+  --element-bg-color: hsl(268, 71%, 12%);
+  --screen-bg-color: hsl(268, 71%, 12%);
 
-    --key-bg-color: hsl(281, 89%, 26%);
-    --key-shadow-color: hsl(285, 91%, 52%);
-    --key-element-color: hsl(176, 100%, 44%);
-    --key-shadow-color2: hsl(177, 92%, 70%);
-    --key-bg-color2: hsl(268, 47%, 21%);
-    --key-shadow-color3: hsl(290, 70%, 36%);
+  --key-bg-color: hsl(281, 89%, 26%);
+  --key-shadow-color: hsl(285, 91%, 52%);
+  --key-element-color: hsl(176, 100%, 44%);
+  --key-shadow-color2: hsl(177, 92%, 70%);
+  --key-bg-color2: hsl(268, 47%, 21%);
+  --key-shadow-color3: hsl(290, 70%, 36%);
 
-    --primary-text-color: hsl(52, 100%, 62%);
-    --accent-text-color: hsl(198, 20%, 13%);
-  }
+  --primary-text-color: hsl(52, 100%, 62%);
+  --header-text-color: hsl(52, 100%, 62%);
+  --accent-text-color: hsl(198, 20%, 13%);
 }
 
 body {

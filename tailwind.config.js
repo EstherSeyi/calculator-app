@@ -28,10 +28,15 @@ module.exports = {
       misc: {
         primary: "var(--primary-text-color)",
         accent: "var(--accent-text-color)",
+        header: "var(--header-text-color)",
         white: "#ffffff",
       },
     },
-    extend: {},
+    extend: {
+      inset: {
+        "3px": "3px",
+      },
+    },
   },
   variants: {
     extend: {},
