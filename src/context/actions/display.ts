@@ -6,3 +6,6 @@ export const typeData = (payload: string) => ({
 export const clearData = () => ({
   type: "CLEAR_DATA",
 });
+export const resetData = () => ({
+  type: "RESET_DATA",
+});
