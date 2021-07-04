@@ -1,10 +1,11 @@
 const accentBtn = ["reset", "del"];
 const largerBtn = ["reset", "="];
 
-const Button = ({ children }: { children: string }) => {
+const Button = ({ children, onClick }: { children: string; onClick: any }) => {
   return (
     <>
       <button
+        onClick={onClick}
         className={`py-2 micro:py-4 px-4 micro:px-6 rounded-md uppercase text-sm micro:text-base ${
           accentBtn.includes(children)
             ? "bg-key-bg text-misc-white shadow-accent"
