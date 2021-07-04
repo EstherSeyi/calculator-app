@@ -15,10 +15,10 @@ const displayReducer = (
         ...state,
         displayData: `${state.displayData}${payload}`,
       };
-    case "CLEAR_DATA":
+    case "RESET_DATA":
       return {
         ...state,
-        displayData: state.displayData.slice(0, state.displayData.length - 1),
+        displayData: "",
       };
     default:
       return {
