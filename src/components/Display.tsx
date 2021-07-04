@@ -4,7 +4,9 @@ const Display = () => {
   const { displayState } = useDisplay();
   return (
     <div className="mb-4 bg-bg-screen py-4 px-3 rounded-md text-2xl text-misc-header">
-      <span className="ml-auto w-max block">{displayState.displayData}</span>
+      <span className="ml-auto w-max block">
+        {displayState.displayData === "" ? "0" : displayState.displayData}
+      </span>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import displayReducer from "./reducers/display";
 import { typeData, clearData } from "./actions/display";
 
 export const initialState = {
-  displayData: "0",
+  displayData: "",
 };
 
 const DisplayContext = createContext<any>(initialState);
