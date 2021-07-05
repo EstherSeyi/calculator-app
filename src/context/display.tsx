@@ -1,7 +1,12 @@
 import { createContext, useReducer, useContext, ReactNode } from "react";
 
 import displayReducer from "./reducers/display";
-import { typeData, clearData, resetData } from "./actions/display";
+import {
+  typeData,
+  clearData,
+  resetData,
+  calculateData,
+} from "./actions/display";
 
 export const initialState = {
   displayData: "",
@@ -21,9 +26,14 @@ const DisplayProvider = ({ children }: { children: ReactNode }) => {
   const reset = () => {
     return dispatch(resetData());
   };
+  const calculate = (payload: string) => {
+    return dispatch(calculateData(payload));
+  };
 
   return (
-    <DisplayContext.Provider value={{ displayState, clear, type, reset }}>
+    <DisplayContext.Provider
+      value={{ displayState, clear, type, reset, calculate }}
+    >
       {children}
     </DisplayContext.Provider>
   );
