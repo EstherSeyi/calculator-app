@@ -1,5 +1,6 @@
+const { screens } = require("tailwindcss/defaultTheme");
 module.exports = {
-  mode: "jit",
+  // mode: "jit",
   purge: [
     "./src/**/*.html",
     "./src/**/*.ts",
@@ -33,6 +34,10 @@ module.exports = {
         transparent: "transparent",
       },
     },
+    screens: {
+      micro: "400px",
+      ...screens,
+    },
     extend: {
       inset: {
         "3px": "3px",
@@ -41,9 +46,6 @@ module.exports = {
         reg: "0 1px 2px 0 var(--key-shadow-color3)",
         accent: "0 1px 2px 0 var(--key-shadow-color)",
         equals: "0 1px 2px 0 var(--key-shadow-color2)",
-      },
-      screens: {
-        micro: "400px",
       },
     },
   },
