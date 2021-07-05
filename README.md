@@ -52,7 +52,7 @@ One thing I learnt on this project is the Javascript `eval()` method. I learnt a
 
 ### Continued development
 
-Going forward, i'll like to improve the project by;
+Going forward, I'll like to improve the project by;
 
 - Making the display area better handle larger numbers of characters responsively.
 - Formating display values.
