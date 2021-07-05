@@ -41,7 +41,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- TailwindcCSS
+- [TailwindcCSS](https://tailwindcss.com/) - CSS framework
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Create React App](https://create-react-app.dev/) - React framework
@@ -61,7 +61,7 @@ Going forward, i'll like to improve the project by;
 
 ## Author
 
-- Website - [Add your name here](https://www.estherogundijo.rocks)
+- Website - [Esther Ogundijo](https://www.estherogundijo.rocks)
 - Frontend Mentor - [@EstherSeyi](https://www.frontendmentor.io/profile/EstherSeyi)
 
 ## Acknowledgments
