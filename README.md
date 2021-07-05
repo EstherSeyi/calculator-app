@@ -16,8 +16,6 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![alt calculator](https://github.com/EstherSeyi/calculator-app/blob/main/screenshot.png?raw=true)
+![calculator](https://github.com/EstherSeyi/calculator-app/blob/main/public/screenshot.png?raw=true)
 
 ### Links
 
