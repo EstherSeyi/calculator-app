@@ -14,7 +14,7 @@ const Button = ({ children, onClick }: { children: string; onClick: any }) => {
             : false
         }
         onClick={onClick}
-        className={`py-2 micro:py-4 px-4 micro:px-6 rounded-md uppercase text-sm micro:text-base ${
+        className={`py-2 micro:py-3 px-4 micro:px-4  rounded-md uppercase text-sm micro:text-xl  md:text-2xl ${
           accentBtn.includes(children)
             ? "bg-key-bg text-misc-white shadow-accent"
             : children === "="
