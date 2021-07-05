@@ -1,6 +1,6 @@
 const { screens } = require("tailwindcss/defaultTheme");
 module.exports = {
-  // mode: "jit",
+  mode: "jit",
   purge: [
     "./src/**/*.html",
     "./src/**/*.ts",
