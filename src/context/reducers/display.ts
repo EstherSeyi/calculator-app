@@ -36,6 +36,12 @@ const displayReducer = (
         ...state,
         displayData: "",
       };
+    case "CALCULATE":
+      return {
+        ...state,
+        // eslint-disable-next-line
+        displayData: eval(payload || "0"),
+      };
     default:
       return {
         ...state,
