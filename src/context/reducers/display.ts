@@ -40,7 +40,7 @@ const displayReducer = (
       return {
         ...state,
         // eslint-disable-next-line
-        displayData: eval(payload || "0"),
+        displayData: `${eval(payload || "0")}`,
       };
     default:
       return {
