@@ -9,3 +9,7 @@ export const clearData = () => ({
 export const resetData = () => ({
   type: "RESET_DATA",
 });
+export const calculateData = (payload: string) => ({
+  type: "CALCULATE",
+  payload,
+});
